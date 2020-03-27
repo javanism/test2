@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use('/upload',require('./routes/uploadRouter'));
 
 const server=app.listen('8082',()=>{
-    console.log('8082 server ready....^^***');
+    console.log('8082 serfver ready....^^***');
 });
 
 const a=require('./socket');
